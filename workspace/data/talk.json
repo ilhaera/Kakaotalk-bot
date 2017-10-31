@@ -1,0 +1,22 @@
+[
+    {
+        "bind":"match",
+        "text":"테스트",
+        "response":"restext = '테스트 중입니다.'"
+    },
+    {
+        "bind":"find",
+        "text":"안녕",
+        "response":"restext = '안녕하세요!!'"
+    },
+    {
+        "bind":"start",
+        "text":"/echo ",
+        "response":"restext = content.substring(6)"
+    },
+    {
+        "bind":"end",
+        "text":"?",
+        "response":"restext = '그럴걸요?'"
+    }
+]
